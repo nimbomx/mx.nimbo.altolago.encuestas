@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="format-detection" content="telephone=no" />
+	<meta name="msapplication-tap-highlight" content="no" />
+	<!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+	<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+	<title>Encuesta</title>
+	
+	<link rel='stylesheet' href='css/index.css'>
+
+	<script src='js/jquery-2.1.3.min.js'></script>
+	
+	<script>
+		var idSurvey;
+		var sPages=0;
+		var currentPage=0;
+		function nextPage(){
+			console.log(currentPage)
+			$('.page[data-page="'+currentPage+'"]').addClass('left');
+			currentPage++;
+			$('.page[data-page="'+currentPage+'"]').removeClass('right');
+			animateEmoBtn();
+			animateTxtBtn();
+
+
+		}
+		function prevPage(){
+			console.log(currentPage)
+			$('.page[data-page="'+currentPage+'"]').addClass('right');
+			currentPage--;
+			$('.page[data-page="'+currentPage+'"]').removeClass('left');
+			animateEmoBtn();
+			animateTxtBtn();
+
+
+		}
+		function animateTxtBtn(){
+			$('.page[data-page="'+currentPage+'"] .txtBtn').delay(500).each(function(i) {
+				$(this).addClass("undone").delay(200*i).queue(function(){
+					$(this).addClass("show").dequeue().delay(1000).queue(function(){
+						$(this).addClass("done").dequeue();
+					});
+				});
+			});
+
+		}
+		function animateEmoBtn(){
+			$('.page[data-page="'+currentPage+'"] .emoBtn').delay(500).each(function(i) {
+				$(this).addClass("undone").delay(200*i).queue(function(){
+					$(this).addClass("bounce").dequeue().delay(1000).queue(function(){
+						$(this).addClass("done").dequeue();
+					});
+				});
+			});
+		}
+		$(function(){
+			id=location.hash
+			idSurvey=id.replace('#','');
+			//alert(idSurvey);
+			var db = openDatabase('mydb', '1.0', 'ALTOLAGO DB', 2 * 1024 * 1024);
+			db.transaction(function (tx) {
+				tx.executeSql('SELECT * FROM Surveys WHERE id='+idSurvey, [], function (tx, results) {
+					var len = results.rows.length;
+					$('#testM').html(results.rows.item(0).name);
+				});
+			})
+			db.transaction(function (tx) {
+				tx.executeSql('SELECT * FROM Structure WHERE id_survey='+idSurvey, [], function (tx, results) {
+					var len = results.rows.length, i;
+					for (i = 0; i < len; i++){
+						var obj =jQuery.parseJSON(results.rows.item(i).val);
+						var kind=results.rows.item(i).id_kind;
+						console.log(obj);
+						var out='';
+						var tmp='...';
+						if(kind == 1){
+							out+='<tr><td><div id="logoSml"><img src="images/LogoAltoLagoBig.png"></div></td></tr>';
+							out+='<tr><td><div class="wBlack">'+obj.Principal+'</div><br><div class="wBold">'+obj.Secundario+'</div></td></tr>';
+							out+='<tr><td><button class="simpleBtn nextBtn">PROSIGA</button></td></tr>';
+						}else if(kind == 2){
+							out+='<tr><td><div id="logoSml"><img src="images/LogoAltoLagoBig.png"></div></td></tr>';
+							out+='<tr><td><div class="wBlack">'+obj.Pregunta+'</div></td></tr>';
+							out+='<tr><td><div class="opciones">';
+							out+='<button class="emoBtn emo1"><div class="shadow"></div><div class="active"></div></button>';
+							out+='<button class="emoBtn emo2"><div class="shadow"></div><div class="active"></div></button>';
+							out+='<button class="emoBtn emo3"><div class="shadow"></div><div class="active"></div></button>';
+							out+='<button class="emoBtn emo4"><div class="shadow"></div><div class="active"></div></button>';
+							out+='</div></td></tr>';
+						}else if(kind == 3){
+							out+='<tr><td><div id="logoSml"><img src="images/LogoAltoLagoBig.png"></div></td></tr>';
+							out+='<tr><td><div class="wBlack">'+obj.Pregunta+'</div></td></tr>';
+							out+='<tr><td><div class="opciones">';
+							out+='<button class="txtBtn"><div class="shadow"></div><div class="active"><table><tr><td>'+obj.r1+'</td></tr></table></div></button>';
+							out+='<button class="txtBtn"><div class="shadow"></div><div class="active"><table><tr><td>'+obj.r2+'</td></tr></table></div></button>';
+							out+='<button class="txtBtn"><div class="shadow"></div><div class="active"><table><tr><td>'+obj.r3+'</td></tr></table></div></button>';
+							out+='<button class="txtBtn"><div class="shadow"></div><div class="active"><table><tr><td>'+obj.r4+'</td></tr></table></div></button>';
+							out+='</div></td></tr>';
+						}else if(kind == 4){
+							out+='<tr><td><div id="logoSml"><img src="images/LogoAltoLagoBig.png"></div></td></tr>';
+							out+='<tr><td><div class="wBlack">'+obj.Pregunta+'</div><div style="float:left; margin: 0px 40px;"><button class="simpleBtn prevBtn">REGRESAR</button></div><div style="float:right; margin: 0px 40px;"><button class="simpleBtn nextBtn">SIGUENTE</button></div></td></tr>';
+							out+='<tr><td><div style="margin: 0px 40px;"><textarea class="openQ" style="width:90%; margin:auto; height:300px; background:#fff; border-radius:20px"></textarea></div></td></tr>';
+						}else if(kind == 5){
+							out+='<tr><td><div id="logoSml"><img src="images/LogoAltoLagoBig.png"></div></td></tr>';
+							out+='<tr><td><div class="wBlack">'+obj.Principal+'</div><br><div class="wBold">'+obj.Secundario+'</div></td></tr>';
+						}
+						$('#app').append('<div class="page right" data-page="'+(i+1)+'"><table>'+out+'</table></div>');
+						
+					}
+				});
+});
+$('.startBtn').on('click',function(){
+	nextPage();
+})
+$('#app').on('click','.nextBtn',function(){
+	nextPage();
+})
+$('#app').on('click','.prevBtn',function(){
+	prevPage();
+})
+$('#app').on('click','.emoBtn,.txtBtn',function(){
+	nextPage();
+})
+
+});
+</script>
+</head>
+<body>
+	<div id="app">
+		<div class="page start"  data-page="0">
+			<table>
+				<tr>
+					<td>
+						<img src="img/LogoAltoLagoBig.png"><br><br>
+
+						<button class="simpleBtn startBtn">COMENZAR</button>
+
+					</div>
+				</td>
+			</tr>
+		</table>
+
+	</div>
+</div>
+</body>
+</html>

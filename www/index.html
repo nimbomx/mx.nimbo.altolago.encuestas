@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <title>ALTO LAGO - Encuestas</title>
+</head>
+<body>
+    <div id="app">
+        <div class="page splash">
+            <table>
+                <tr>
+                    <td>
+                        <img src="img/LogoAltoLagoBig.png"><br><br>
+                        <div class="status"></div>
+                        <button class="simpleBtn registrarBtn">REGISTRAR</button>
+                        <button class="simpleBtn resetBtn">RESTAURAR</button>
+                        <button class="simpleBtn reloadBtn">REINTENTAR</button>
+                        <br><br>
+                        <div id="encuestas"></div>
+                        <div id="console">
+
+                        </div>
+                    </td>
+                </tr>
+            </table>
+
+        </div>
+
+    </div>
+    <script src='js/jquery-2.1.3.min.js'></script>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript">
+        function consola(out){
+            $('#console').append(out+'<br>');
+        }
+        function status(out){
+            $('.status').html(out);
+        }
+        function syncSurveys(){
+            status('SINCRONIZANDO ENCUESTAS...');
+            consola('Sincronizando encuestas...');
+            var db = openDatabase('mydb', '1.0', 'ALTOLAGO DB', 2 * 1024 * 1024);
+            db.transaction(function (tx) {  
+                tx.executeSql('CREATE TABLE IF NOT EXISTS Sync (id unique, name, synced_at)');
+                tx.executeSql('INSERT INTO Sync (id, name,synced_at) VALUES (1,"Surveys","2000-01-01 00:00:00")');
+            });
+            db.transaction(function (tx) {  
+                tx.executeSql('SELECT * FROM Sync WHERE name = ?',['Surveys'],function(tx,results){
+                  date=(results.rows.item(0).synced_at);
+                  consola('Última sincronización: '+date);
+                  getSurveys(date);
+              });
+            })
+
+        }
+        function getSurveys(date){
+         $.ajax({data:{
+            date:date
+        },url:"http://altolago.nimbo.pro/syncsurveys"}).success(function(res){
+            console.log(res);
+            if(res.synced=='false'){
+              var db = openDatabase('mydb', '1.0', 'ALTOLAGO DB', 2 * 1024 * 1024);
+              db.transaction(function (tx) {  
+                tx.executeSql('DROP TABLE if exists Surveys');
+                tx.executeSql('CREATE TABLE IF NOT EXISTS Surveys (id unique, name, description,active)');
+            });
+              db.transaction(function (tx) {  
+                for(n in res.surveys){
+                  tx.executeSql('INSERT INTO Surveys (id, name,description,active) VALUES (?,?,?,?)',[res.surveys[n].id,res.surveys[n].name,res.surveys[n].description,res.surveys[n].active]);
+              }
+          });
+              db.transaction(function (tx) { 
+                tx.executeSql('DROP TABLE if exists Structure');
+                tx.executeSql('CREATE TABLE IF NOT EXISTS Structure (id unique, id_survey,id_kind,val)');
+            });
+              db.transaction(function (tx) {  
+                for(m in res.survey_structure){
+                  tx.executeSql('INSERT INTO Structure (id, id_survey,id_kind,val) VALUES (?,?,?,?)',[res.survey_structure[m].id,res.survey_structure[m].id_survey,res.survey_structure[m].id_kind,res.survey_structure[m].values]);
+                 /* tx.executeSql('SELECT * FROM Structure', [], function (tx, results) {
+                      alert(results.rows.length);
+                  });*/
+          }
+          db.transaction(function (tx) {  
+            tx.executeSql('UPDATE Sync SET synced_at=? WHERE name = ?',[res.sync.synced_at,'Surveys']);
+        });
+      },function(){},function(){
+        writeSurveys();
+    });
+
+          }else{
+            writeSurveys();
+        }
+        status('ENCUESTAS SINCRONIZADAS');
+        consola('Encuestas Sincronizadas');
+    });
+
+}
+function writeSurveys(){
+    $('.status').remove();
+  var db = openDatabase('mydb', '1.0', 'ALTOLAGO DB', 2 * 1024 * 1024);
+  db.transaction(function (tx) {
+    tx.executeSql('SELECT * FROM Surveys WHERE active=1', [], function (tx, results) {
+       var len = results.rows.length, i;
+       $('#encuestas').html('');
+       for (i = 0; i < len; i++){
+         $('#encuestas').append('<a href="encuesta.html#'+results.rows.item(i).id+'"><button class="txtBtn"><div class="shadow"></div><div class="active"><table><tr><td>'+results.rows.item(i).name+'</td></tr></table></div></button></a>');
+     }
+     animateTxtBtn();
+ }, null);
+});
+}
+
+function animateTxtBtn(){
+  $('.txtBtn').delay(500).each(function(i) {
+    $(this).addClass("undone").delay(200*i).queue(function(){
+      $(this).addClass("show").dequeue().delay(1000).queue(function(){
+        $(this).addClass("done").dequeue();
+    });
+  });
+});
+}
+$(function(){
+    var db = openDatabase('mydb', '1.0', 'ALTOLAGO DB', 2 * 1024 * 1024);
+    status('CARGANDO...');
+    consola('jQuery loaded.');
+    consola(navigator.onLine);
+    if (localStorage.getItem("deviceName") === null) {
+        consola('Dispositivo no registrado.');
+        if(navigator.onLine){
+            status('El dispositivo no ha sido registrado.');
+            $('.registrarBtn').fadeIn(500).on('click',function(){
+                reg=prompt('Debe dar un nombre al dispositivo');
+                if(reg != null && reg != '') {
+                    localStorage.setItem("deviceName", reg);
+                    location.reload();
+                }
+            });
+
+        }else{
+            status('El dispositivo no ha sido registrado,<br> es necesario conectarse a internet.');
+            $('.reloadBtn').fadeIn(500).on('click',function(){
+                location.reload();
+            });
+        }
+
+    }else{
+        $('.resetBtn').fadeIn(500).on('click',function(){
+            var db = openDatabase('mydb', '1.0', 'ALTOLAGO DB', 2 * 1024 * 1024);
+            db.transaction(function (tx) {  
+                tx.executeSql('DROP TABLE if exists Sync');
+                tx.executeSql('DROP TABLE if exists Structure');
+                tx.executeSql('DROP TABLE if exists Encuestas');
+                tx.executeSql('DROP TABLE if exists Surveys');
+                
+            },function(){//error
+
+            },function(){//success
+                localStorage.removeItem("deviceName");
+                window.location.reload();
+            });
+});
+
+
+status('Dispositivo registrado.');
+consola('Dispositivo registrado como '+localStorage.getItem("deviceName"));
+syncSurveys();
+}
+});
+
+</script>
+       <!--  <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript">
+            app.initialize();
+        </script>-->
+    </body>
+    </html>
