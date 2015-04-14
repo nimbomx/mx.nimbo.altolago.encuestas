@@ -16,6 +16,13 @@
 		var idSurvey;
 		var sPages=0;
 		var currentPage=0;
+		function addResult(Q,A){
+			var db = openDatabase('mydb', '1.0', 'ALTOLAGO DB', 2 * 1024 * 1024);
+			db.transaction(function (tx) {
+				tx.executeSql('CREATE TABLE IF NOT EXISTS results (id unique, id_survey,id_device,performed_at,question,answer)');
+				tx.executeSql('INSERT INTO results VALUES (NULL,?,?,?,?,?)', [idSurvey,0,$.now(),Q,A]);
+			})
+		}
 		function nextPage(){
 			console.log(currentPage)
 			$('.page[data-page="'+currentPage+'"]').addClass('left');
@@ -68,10 +75,15 @@
 			})
 			db.transaction(function (tx) {
 				tx.executeSql('SELECT * FROM Structure WHERE id_survey='+idSurvey, [], function (tx, results) {
+
 					var len = results.rows.length, i;
 					for (i = 0; i < len; i++){
-						var obj =jQuery.parseJSON(results.rows.item(i).val);
+						console.log(results.rows.item(i).val)
+						var myjsonobject=(results.rows.item(i).val);
+						var obj = jQuery.parseJSON(myjsonobject.replace(/\n/g,"\\n"));
+						console.log(obj);
 						var kind=results.rows.item(i).id_kind;
+						var idq=results.rows.item(i).id;
 						console.log(obj);
 						var out='';
 						var tmp='...';
@@ -83,23 +95,23 @@
 							out+='<tr><td><div id="logoSml"><img src="images/LogoAltoLagoBig.png"></div></td></tr>';
 							out+='<tr><td><div class="wBlack">'+obj.Pregunta+'</div></td></tr>';
 							out+='<tr><td><div class="opciones">';
-							out+='<button class="emoBtn emo1"><div class="shadow"></div><div class="active"></div></button>';
-							out+='<button class="emoBtn emo2"><div class="shadow"></div><div class="active"></div></button>';
-							out+='<button class="emoBtn emo3"><div class="shadow"></div><div class="active"></div></button>';
-							out+='<button class="emoBtn emo4"><div class="shadow"></div><div class="active"></div></button>';
+							out+='<button class="emoBtn emo1 r1" data-q="'+idq+'"><div class="shadow"></div><div class="active"></div></button>';
+							out+='<button class="emoBtn emo2 r2" data-q="'+idq+'"><div class="shadow"></div><div class="active"></div></button>';
+							out+='<button class="emoBtn emo3 r3" data-q="'+idq+'"><div class="shadow"></div><div class="active"></div></button>';
+							out+='<button class="emoBtn emo4 r4" data-q="'+idq+'"><div class="shadow"></div><div class="active"></div></button>';
 							out+='</div></td></tr>';
 						}else if(kind == 3){
 							out+='<tr><td><div id="logoSml"><img src="images/LogoAltoLagoBig.png"></div></td></tr>';
 							out+='<tr><td><div class="wBlack">'+obj.Pregunta+'</div></td></tr>';
 							out+='<tr><td><div class="opciones">';
-							out+='<button class="txtBtn"><div class="shadow"></div><div class="active"><table><tr><td>'+obj.r1+'</td></tr></table></div></button>';
-							out+='<button class="txtBtn"><div class="shadow"></div><div class="active"><table><tr><td>'+obj.r2+'</td></tr></table></div></button>';
-							out+='<button class="txtBtn"><div class="shadow"></div><div class="active"><table><tr><td>'+obj.r3+'</td></tr></table></div></button>';
-							out+='<button class="txtBtn"><div class="shadow"></div><div class="active"><table><tr><td>'+obj.r4+'</td></tr></table></div></button>';
+							out+='<button class="txtBtn r1" data-q="'+idq+'"><div class="shadow"></div><div class="active"><table><tr><td>'+obj.r1+'</td></tr></table></div></button>';
+							out+='<button class="txtBtn r2" data-q="'+idq+'"><div class="shadow"></div><div class="active"><table><tr><td>'+obj.r2+'</td></tr></table></div></button>';
+							out+='<button class="txtBtn r3" data-q="'+idq+'"><div class="shadow"></div><div class="active"><table><tr><td>'+obj.r3+'</td></tr></table></div></button>';
+							out+='<button class="txtBtn r4" data-q="'+idq+'"><div class="shadow"></div><div class="active"><table><tr><td>'+obj.r4+'</td></tr></table></div></button>';
 							out+='</div></td></tr>';
 						}else if(kind == 4){
 							out+='<tr><td><div id="logoSml"><img src="images/LogoAltoLagoBig.png"></div></td></tr>';
-							out+='<tr><td><div class="wBlack">'+obj.Pregunta+'</div><div style="float:left; margin: 0px 40px;"><button class="simpleBtn prevBtn">REGRESAR</button></div><div style="float:right; margin: 0px 40px;"><button class="simpleBtn nextBtn">SIGUENTE</button></div></td></tr>';
+							out+='<tr><td><div class="wBlack">'+obj.Pregunta+'</div><div style="float:left; margin: 0px 40px;"><button class="simpleBtn prevBtn">REGRESAR</button></div><div style="float:right; margin: 0px 40px;"><button class="simpleBtn nextBtn oq " data-q="'+idq+'">SIGUENTE</button></div></td></tr>';
 							out+='<tr><td><div style="margin: 0px 40px;"><textarea class="openQ" style="width:90%; margin:auto; height:300px; background:#fff; border-radius:20px"></textarea></div></td></tr>';
 						}else if(kind == 5){
 							out+='<tr><td><div id="logoSml"><img src="images/LogoAltoLagoBig.png"></div></td></tr>';
@@ -114,12 +126,23 @@ $('.startBtn').on('click',function(){
 	nextPage();
 })
 $('#app').on('click','.nextBtn',function(){
+	if($(this).hasClass('oq')){
+		q=$(this).data('q');
+		r=$(this).parents().eq(3).find('.openQ').val();
+		addResult(q,r);
+	}
 	nextPage();
 })
 $('#app').on('click','.prevBtn',function(){
 	prevPage();
 })
 $('#app').on('click','.emoBtn,.txtBtn',function(){
+	q=$(this).data('q');
+	if($(this).hasClass('r1'))r=1;
+	if($(this).hasClass('r2'))r=2;
+	if($(this).hasClass('r3'))r=3;
+	if($(this).hasClass('r4'))r=4;
+	addResult(q,r);
 	nextPage();
 })
 
