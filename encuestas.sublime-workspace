@@ -223,22 +223,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "www/index.html",
-			"settings":
-			{
-				"buffer_size": 1063,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/D/Phonegap/surveys.altolago.nimbo.mx/www/index.html",
-			"settings":
-			{
-				"buffer_size": 1391,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -303,12 +287,18 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/C/phonegap/mx.nimbo.altolago.encuestas",
+		"/C/phonegap/mx.nimbo.altolago.encuestas/www"
+	],
 	"file_history":
 	[
+		"/C/phonegap/mx.nimbo.altolago.encuestas/www/index.html",
+		"/D/Phonegap/surveys.altolago.nimbo.mx/www/index.html",
 		"/D/Phonegap/Alto Lago - Escuestas/www/css/index.css",
 		"/D/Phonegap/surveys.altolago.nimbo.mx/www/css/index.css",
 		"/D/Phonegap/surveys.altolago.nimbo.mx/www/js/setup.js",
-		"/D/Phonegap/surveys.altolago.nimbo.mx/www/index.html",
 		"/D/Phonegap/surveys.altolago.nimbo.mx/www/encuesta.html",
 		"/D/Phonegap/surveys.altolago.nimbo.mx/www/js/slidetounlock.js",
 		"/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/database/seeds/DatabaseSeeder.php",
@@ -430,74 +420,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "www/index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1063,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								699,
-								699
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 2.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/D/Phonegap/surveys.altolago.nimbo.mx/www/index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1391,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								803,
-								711
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 156.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				}
 			]
 		}
 	],
