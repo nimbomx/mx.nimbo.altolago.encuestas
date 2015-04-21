@@ -146,6 +146,7 @@ function updateResults(){
                     id_survey:r.id_survey,
                     id_device:r.id_device,
                     performed_at:r.performed_at,
+                    device:localStorage.getItem("deviceName"),
                     question:""+r.question,
                     answer:""+r.answer
                 },url:"http://altolago.nimbo.pro/updateresult"}).success(function(res){
@@ -160,6 +161,7 @@ function updateResults(){
 }
 $(function(){
     var db = openDatabase('mydb', '1.0', 'ALTOLAGO DB', 2 * 1024 * 1024);
+    
     db.transaction(function (tx) {
         tx.executeSql('SELECT * FROM results', [], function (tx, results) {
             if(results.rows.length){

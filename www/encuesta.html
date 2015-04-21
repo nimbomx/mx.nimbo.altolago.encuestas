@@ -16,11 +16,16 @@
 		var idSurvey;
 		var sPages=0;
 		var currentPage=0;
+		var totalPages=0;
 		function addResult(Q,A){
+			var mes=['01','02','03','04','05','06','07','08','09','10','11','12'];
+			var d = new Date();
+			var n = d.getFullYear()+'-'+mes[d.getMonth()]+'-'+d.getDate()+' '+d.getHours()+':'+d.getMinutes()+':'+d.getMinutes();
 			var db = openDatabase('mydb', '1.0', 'ALTOLAGO DB', 2 * 1024 * 1024);
 			db.transaction(function (tx) {
 				tx.executeSql('CREATE TABLE IF NOT EXISTS results (id unique, id_survey,id_device,performed_at,question,answer)');
 				tx.executeSql('INSERT INTO results VALUES (NULL,?,?,?,?,?)', [idSurvey,0,$.now(),Q,A]);
+
 			})
 		}
 		function nextPage(){
@@ -30,8 +35,8 @@
 			$('.page[data-page="'+currentPage+'"]').removeClass('right');
 			animateEmoBtn();
 			animateTxtBtn();
-
-
+			if(totalPages<=currentPage)
+				updateResultsNow();
 		}
 		function prevPage(){
 			console.log(currentPage)
@@ -62,7 +67,49 @@
 				});
 			});
 		}
+		function delRes(performed_at){
+
+			var db = openDatabase('mydb', '1.0', 'ALTOLAGO DB', 2 * 1024 * 1024);
+			db.transaction(function (tx) {				
+				tx.executeSql('DELETE FROM results WHERE performed_at = '+performed_at);
+			});
+		}
+		function updateResultsNow(){
+			//$('.status').html('Cargando datos...').show();
+
+			var db = openDatabase('mydb', '1.0', 'ALTOLAGO DB', 2 * 1024 * 1024);
+			db.transaction(function (tx) {
+				tx.executeSql('SELECT * FROM results', [], function (tx, results) {
+					var len = results.rows.length, i;
+					for (i = 0; i < len; i++){
+						r=results.rows.item(i);
+						$.ajax({data:{
+							id_survey:r.id_survey,
+							id_device:r.id_device,
+							performed_at:r.performed_at,
+							device:localStorage.getItem("deviceName"),
+							question:""+r.question,
+							answer:""+r.answer
+						},url:"http://altolago.nimbo.pro/updateresult"}).success(function(res){
+							delRes(res);
+						});
+
+					}
+				});
+			});
+
+		}
 		$(function(){
+			$('#app').on('focus','textarea',function(){
+				$(this).css('height','500px');
+				$('.wBlack').hide();
+				$('.logH').hide();
+			})
+			$('#app').on('focus','blur',function(){
+				$(this).css('height','200px');
+				$('.wBlack').show();
+				$('.logH').show();
+			})
 			id=location.hash
 			idSurvey=id.replace('#','');
 			//alert(idSurvey);
@@ -77,6 +124,8 @@
 				tx.executeSql('SELECT * FROM Structure WHERE id_survey='+idSurvey, [], function (tx, results) {
 
 					var len = results.rows.length, i;
+					totalPages=len;
+					
 					for (i = 0; i < len; i++){
 						console.log(results.rows.item(i).val)
 						var myjsonobject=(results.rows.item(i).val);
@@ -110,9 +159,9 @@
 							out+='<button class="txtBtn r4" data-q="'+idq+'"><div class="shadow"></div><div class="active"><table><tr><td>'+obj.r4+'</td></tr></table></div></button>';
 							out+='</div></td></tr>';
 						}else if(kind == 4){
-							out+='<tr><td><div id="logoSml"><img src="images/LogoAltoLagoBig.png"></div></td></tr>';
+							out+='<tr><td><div class="logH" id="logoSml"><img src="images/LogoAltoLagoBig.png"></div></td></tr>';
 							out+='<tr><td><div class="wBlack">'+obj.Pregunta+'</div><div style="float:left; margin: 0px 40px;"><button class="simpleBtn prevBtn">REGRESAR</button></div><div style="float:right; margin: 0px 40px;"><button class="simpleBtn nextBtn oq " data-q="'+idq+'">SIGUENTE</button></div></td></tr>';
-							out+='<tr><td><div style="margin: 0px 40px;"><textarea class="openQ" style="width:90%; margin:auto; height:300px; background:#fff; border-radius:20px"></textarea></div></td></tr>';
+							out+='<tr><td><div style="margin: 0px 40px;"><textarea class="openQ" style="width:90%; margin:auto; height:300px; background:#fff; border-radius:20px"></textarea><div class="grow"></div></div></td></tr>';
 						}else if(kind == 5){
 							out+='<tr><td><div id="logoSml"><img src="images/LogoAltoLagoBig.png"></div></td></tr>';
 							out+='<tr><td><div class="wBlack">'+obj.Principal+'</div><br><div class="wBold">'+obj.Secundario+'</div></td></tr>';
