@@ -63,7 +63,7 @@
         function getSurveys(date){
          $.ajax({data:{
             date:date
-        },url:"http://altolago.nimbo.pro/syncsurveys"}).success(function(res){
+        },url:"http://187.216.52.244:8080/encuestas/public_html/syncsurveys"}).success(function(res){
             console.log(res);
             if(res.synced=='false'){
               var db = openDatabase('mydb', '1.0', 'ALTOLAGO DB', 2 * 1024 * 1024);
@@ -149,7 +149,7 @@ function updateResults(){
                     device:localStorage.getItem("deviceName"),
                     question:""+r.question,
                     answer:""+r.answer
-                },url:"http://altolago.nimbo.pro/updateresult"}).success(function(res){
+                },url:"http://187.216.52.244:8080/encuestas/public_html/updateresult"}).success(function(res){
                     delRes(res);
                 });
                 

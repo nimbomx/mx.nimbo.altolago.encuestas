@@ -4,12 +4,16 @@
 		"selected_items":
 		[
 			[
+				"h",
+				"href"
+			],
+			[
 				"ma",
-				"margin-top"
+				"margin"
 			],
 			[
 				"mar",
-				"margin-top"
+				"margin-bottom"
 			],
 			[
 				"hre",
@@ -156,10 +160,6 @@
 				"removeClass	.removeClass()"
 			],
 			[
-				"h",
-				"height"
-			],
-			[
 				"ta",
 				"target	Attr"
 			],
@@ -252,18 +252,10 @@
 	"buffers":
 	[
 		{
-			"file": "www/index.html",
+			"file": "/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/app/Http/routes.php",
 			"settings":
 			{
-				"buffer_size": 8871,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "www/encuesta.html",
-			"settings":
-			{
-				"buffer_size": 6928,
+				"buffer_size": 846,
 				"line_ending": "Windows"
 			}
 		},
@@ -271,55 +263,23 @@
 			"file": "/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/app/Http/Controllers/CmsController.php",
 			"settings":
 			{
-				"buffer_size": 3622,
+				"buffer_size": 3835,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/artisan",
+			"file": "/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/resources/views/auth/register.blade.php",
 			"settings":
 			{
-				"buffer_size": 1635,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/composer.json",
-			"settings":
-			{
-				"buffer_size": 821,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/config/app.php",
-			"settings":
-			{
-				"buffer_size": 7220,
+				"buffer_size": 1911,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "www/css/index.scss",
+			"file": "/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/app/Http/Controllers/RegController.php",
 			"settings":
 			{
-				"buffer_size": 5239,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/resources/views/surveysEdit.blade.php",
-			"settings":
-			{
-				"buffer_size": 5653,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/resources/views/surveys.blade.php",
-			"settings":
-			{
-				"buffer_size": 1683,
+				"buffer_size": 1580,
 				"line_ending": "Windows"
 			}
 		},
@@ -327,7 +287,71 @@
 			"file": "/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/resources/views/stats.blade.php",
 			"settings":
 			{
-				"buffer_size": 2835,
+				"buffer_size": 3492,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/resources/views/users.blade.php",
+			"settings":
+			{
+				"buffer_size": 423,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/resources/views/home.blade.php",
+			"settings":
+			{
+				"buffer_size": 399,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/resources/views/app.blade.php",
+			"settings":
+			{
+				"buffer_size": 2569,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/app/Http/Controllers/WSController.php",
+			"settings":
+			{
+				"buffer_size": 2908,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "www/encuesta.html",
+			"settings":
+			{
+				"buffer_size": 8512,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "www/css/index.scss",
+			"settings":
+			{
+				"buffer_size": 5238,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "www/index.html",
+			"settings":
+			{
+				"buffer_size": 8939,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/config/mail.php",
+			"settings":
+			{
+				"buffer_size": 4112,
 				"line_ending": "Windows"
 			}
 		},
@@ -410,26 +434,41 @@
 		"/D/Phonegap/Alto Lago - Escuestas/www/css",
 		"/D/localhost/htdocs/nimbo3/altolago.nimbo.pro",
 		"/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/app",
+		"/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/app/Http",
+		"/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/app/Http/Controllers",
+		"/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/app/Http/Controllers/Auth",
+		"/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/app/Http/Middleware",
+		"/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/app/Http/Requests",
 		"/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/config",
 		"/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/resources",
-		"/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/resources/views"
+		"/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/resources/views",
+		"/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/resources/views/auth"
 	],
 	"file_history":
 	[
+		"/C/Users/Ernesto/AppData/Local/Temp/fz3temp-1/index.php",
+		"/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/.env",
+		"/D/Phonegap/Alto Lago - Escuestas/www/index.html",
+		"/D/Phonegap/Alto Lago - Escuestas/www/encuesta.html",
+		"/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/resources/views/stats.blade.php",
+		"/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/app/Http/Controllers/CmsController.php",
+		"/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/resources/views/surveys.blade.php",
+		"/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/resources/views/surveysEdit.blade.php",
+		"/D/Phonegap/Alto Lago - Escuestas/www/css/index.scss",
+		"/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/config/app.php",
+		"/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/composer.json",
+		"/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/artisan",
 		"/C/Users/Ernesto/AppData/Local/Temp/fz3temp-1/welcome.blade.php",
 		"/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/app/Http/routes.php",
 		"/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/app/Http/Controllers/WSController.php",
 		"/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/app/Results.php",
 		"/C/Users/Ernesto/AppData/Local/Temp/fz3temp-1/home.blade.php",
-		"/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/app/Http/Controllers/CmsController.php",
 		"/D/Phonegap/surveys.altolago.nimbo.mx/www/encuesta.html",
-		"/D/Phonegap/Alto Lago - Escuestas/www/encuesta.html",
 		"/D/Phonegap/surveys.altolago.nimbo.mx/www/js/setup.js",
 		"/D/Phonegap/surveys.altolago.nimbo.mx/www/css/style.css",
 		"/D/Phonegap/surveys.altolago.nimbo.mx/www/css/style.scss",
 		"/D/Phonegap/surveys.altolago.nimbo.mx/www/index.html",
 		"/D/Phonegap/surveys.altolago.nimbo.mx/www/css/index.css",
-		"/D/Phonegap/Alto Lago - Escuestas/www/css/index.scss",
 		"/D/Phonegap/Alto Lago - Escuestas/www/css/index.css",
 		"/D/Phonegap/surveys.altolago.nimbo.mx/www/js/slidetounlock.js",
 		"/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/database/seeds/DatabaseSeeder.php",
@@ -439,7 +478,6 @@
 		"/C/Users/Ernesto/AppData/Local/Temp/fz3temp-1/routes.php",
 		"/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/config/database.php",
 		"/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/database/migrations/2015_03_28_162931_results.php",
-		"/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/.env",
 		"/C/Users/Ernesto/AppData/Local/Temp/fz3temp-1/WSController.php",
 		"/D/Phonegap/AltoLago/altolago/www/js/index.js",
 		"/D/Phonegap/AltoLago/altolago/www/-index.html",
@@ -553,121 +591,24 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 7,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "www/index.html",
+					"file": "/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/app/Http/routes.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 8871,
+						"buffer_size": 846,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6614,
-								6614
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1369.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 9,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "www/encuesta.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6928,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2900,
-								2838
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 403.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/app/Http/Controllers/CmsController.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3622,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2036,
-								2036
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 195.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/artisan",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1635,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
+								636,
+								636
 							]
 						],
 						"settings":
@@ -681,56 +622,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/composer.json",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 821,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								227,
-								227
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/JavaScript/JSON.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 182.0,
-						"zoom_level": 1.0
-					},
 					"stack_index": 6,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/config/app.php",
+					"buffer": 1,
+					"file": "/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/app/Http/Controllers/CmsController.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7220,
+						"buffer_size": 3835,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7220,
-								7220
+								175,
+								175
 							]
 						],
 						"settings":
@@ -742,90 +651,27 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1950.0,
+						"translation.y": 888.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
-					"file": "www/css/index.scss",
+					"buffer": 2,
+					"file": "/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/resources/views/auth/register.blade.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5239,
+						"buffer_size": 1911,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5233,
-								5233
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/SCSS/SCSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 3106.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/resources/views/surveysEdit.blade.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5653,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								5637,
-								5637
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1801.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/resources/views/surveys.blade.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1683,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1386,
-								1386
+								617,
+								617
 							]
 						],
 						"settings":
@@ -840,24 +686,57 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 12,
 					"type": "text"
 				},
 				{
-					"buffer": 9,
-					"file": "/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/resources/views/stats.blade.php",
+					"buffer": 3,
+					"file": "/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/app/Http/Controllers/RegController.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2835,
+						"buffer_size": 1580,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								778,
-								778
+								957,
+								957
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"open_with_edit": true,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 180.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/resources/views/stats.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3492,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								3492
 							]
 						],
 						"settings":
@@ -865,17 +744,276 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage"
+							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 234.0,
+						"translation.y": 585.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/resources/views/users.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 423,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								233,
+								233
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"open_with_edit": true,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/resources/views/home.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 399,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								399,
+								399
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
 					"type": "text"
 				},
 				{
+					"buffer": 7,
+					"file": "/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/resources/views/app.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2569,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1847,
+								1847
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 180.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/app/Http/Controllers/WSController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2908,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2006,
+								2006
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 225.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "www/encuesta.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8512,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3565,
+								3565
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1234.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
 					"buffer": 10,
+					"file": "www/css/index.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5238,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5186,
+								5186
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": -0.0,
+						"translation.y": 3897.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "www/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8939,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6780,
+								6780
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2433.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/config/mail.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4112,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3225,
+								3232
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1170.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
 					"file": "/D/Phonegap/surveys.altolago.nimbo.mx/www/css/style.scss",
 					"semi_transient": false,
 					"settings":
@@ -903,7 +1041,7 @@
 						"translation.y": 1977.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 10,
+					"stack_index": 13,
 					"type": "text"
 				}
 			]
@@ -972,7 +1110,7 @@
 		[
 			[
 				"",
-				"D:\\localhost\\htdocs\\nimbo3\\laam.com.mx\\laam.sublime-project"
+				"D:\\localhost\\htdocs\\nimbo3\\ficep\\ficep.sublime-project"
 			]
 		],
 		"width": 380.0
