@@ -4,365 +4,481 @@
 		"selected_items":
 		[
 			[
-				"h",
-				"href"
+				"tmp",
+				"tmpXMLFolder"
 			],
 			[
-				"ma",
-				"margin"
+				"do",
+				"download"
+			],
+			[
+				"po",
+				"pointer"
 			],
 			[
 				"mar",
 				"margin-bottom"
 			],
 			[
-				"hre",
-				"href"
-			],
-			[
-				"id",
-				"id	Attr"
-			],
-			[
-				"on",
-				"onclick	Attr"
-			],
-			[
-				"lo",
-				"location"
-			],
-			[
-				"Sur",
-				"SurveyStructure"
-			],
-			[
-				"cl",
-				"class=\"openQ"
-			],
-			[
-				"re",
-				"relative"
-			],
-			[
-				"class",
-				"class=\"page"
-			],
-			[
-				"out",
-				"outline"
-			],
-			[
-				"di",
-				"display"
-			],
-			[
-				"app",
-				"append	.append()"
-			],
-			[
-				"im",
-				"img"
-			],
-			[
-				"ba",
-				"background"
-			],
-			[
-				"no",
-				"normal"
-			],
-			[
-				"line",
-				"line-height"
-			],
-			[
-				"add",
-				"addClass	.addClass()"
-			],
-			[
-				"bo",
-				"bottom"
-			],
-			[
-				"wi",
-				"width"
-			],
-			[
-				"op",
-				"opacity"
-			],
-			[
-				"mi",
-				"middle"
-			],
-			[
-				"ver",
-				"vertical-align"
-			],
-			[
-				"tre",
-				"transparent"
-			],
-			[
-				"le",
-				"left"
-			],
-			[
-				"fi",
-				"fixed"
-			],
-			[
-				"hr",
-				"href"
-			],
-			[
-				"off",
-				"offset	.offset()"
-			],
-			[
-				"he",
-				"height"
-			],
-			[
-				"ce",
-				"center"
-			],
-			[
-				"font",
-				"font-size"
-			],
-			[
-				"sty",
-				"style	Attr"
-			],
-			[
-				"fadeO",
-				"fadeOut"
-			],
-			[
-				"fade",
-				"fadeOut	.fadeOut()"
-			],
-			[
-				"t",
-				"top"
-			],
-			[
-				"text",
-				"text-align"
-			],
-			[
-				"tra",
-				"transparent"
-			],
-			[
-				"remo",
-				"removeClass	.removeClass()"
-			],
-			[
-				"ta",
-				"target	Attr"
-			],
-			[
-				"Prod",
-				"ProdSec"
-			],
-			[
-				"marg",
-				"margin-bottom"
-			],
-			[
-				"b",
-				"block"
-			],
-			[
 				"pa",
-				"padding"
+				"padding-top"
 			],
 			[
-				"st",
-				"style"
+				"max-",
+				"max-height"
 			],
 			[
-				"Pro",
-				"Prod"
+				"Pendiente",
+				"PendienteEstimar"
 			],
 			[
-				"for",
-				"foreach	foreach …"
+				"appProyectosP",
+				"appProyectosPendEstimar('DR"
 			],
 			[
-				"int",
-				"integer"
+				"ma",
+				"margin-left"
 			],
 			[
-				"val",
-				"value	Attr"
+				"detail",
+				"detailData"
 			],
 			[
-				"input",
-				"input"
+				"item",
+				"itemCheck"
+			],
+			[
+				"ind",
+				"individualizadas"
+			],
+			[
+				"pro",
+				"proyecto"
 			],
 			[
 				"hi",
 				"hidden"
 			],
 			[
+				"canvas",
+				"canvasDetail"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"col",
+				"colores"
+			],
+			[
+				"left",
+				"left:20px"
+			],
+			[
+				"a",
+				"account"
+			],
+			[
+				"apell",
+				"apellido"
+			],
+			[
+				"num",
+				"num_exterior"
+			],
+			[
+				"fe",
+				"fecha_nacimiento"
+			],
+			[
+				"t",
+				"title	Attr"
+			],
+			[
+				"acc",
+				"account"
+			],
+			[
+				"out",
+				"outline"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"id",
+				"id	Attr"
+			],
+			[
+				"tr",
+				"transform"
+			],
+			[
+				"h",
+				"hidden"
+			],
+			[
+				"envio",
+				"envioG"
+			],
+			[
+				"remove",
+				"removeClass	.removeClass()"
+			],
+			[
+				"s",
+				"script	Tag"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"base",
+				"baseline"
+			],
+			[
+				"font-",
+				"font-weight"
+			],
+			[
+				"no",
+				"none"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"first",
+				"first-child"
+			],
+			[
+				"th",
+				"th	Tag"
+			],
+			[
+				"bot",
+				"bottom"
+			],
+			[
+				"bol",
+				"bold"
+			],
+			[
+				"b",
+				"background"
+			],
+			[
+				"bo",
+				"bottom"
+			],
+			[
+				"src",
+				"src	Attr"
+			],
+			[
+				"padding-",
+				"padding-top"
+			],
+			[
+				"line",
+				"line-height"
+			],
+			[
+				"r",
+				"right"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"cl",
+				"class	Attr"
+			],
+			[
+				"hei",
+				"height"
+			],
+			[
+				"re",
+				"relative"
+			],
+			[
+				"bott",
+				"bottomShadow"
+			],
+			[
+				"in",
+				"inshadows"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"border-so",
+				"border-collapse"
+			],
+			[
+				"mi",
+				"middle"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"con",
+				"content"
+			],
+			[
+				"marg",
+				"margin-right"
+			],
+			[
+				"avatar",
+				"div.avatar"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"bu",
+				"button"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"lo",
+				"logoCanvas"
+			],
+			[
+				"pr",
+				"primary"
+			],
+			[
+				"cont",
+				"container"
+			],
+			[
+				"results",
+				"resultados"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"margi",
+				"margin-bottom"
+			],
+			[
+				"li",
+				"lightGray"
+			],
+			[
+				"gal",
+				"galeria"
+			],
+			[
+				"sty",
+				"style	Tag"
+			],
+			[
+				"Cl",
+				"Cliente"
+			],
+			[
+				"ff",
+				"ffmpeg"
+			],
+			[
+				"butto",
+				"buttons"
+			],
+			[
+				"m",
+				"margin"
+			],
+			[
+				"rel",
+				"relative"
+			],
+			[
+				"url",
+				"url()"
+			],
+			[
+				"ch",
+				"charset"
+			],
+			[
+				"lang",
+				"lang	Attr"
+			],
+			[
+				"poi",
+				"pointer"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"bole",
+				"boletinItem"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"next",
+				"nextFog"
+			],
+			[
+				"au",
+				"auto"
+			],
+			[
+				"border-r",
+				"border-radius"
+			],
+			[
+				"cls",
+				"class"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"ver",
+				"vertical-align"
+			],
+			[
+				"point",
+				"pointer"
+			],
+			[
+				"ri",
+				"right"
+			],
+			[
+				"ta",
+				"target	Attr"
+			],
+			[
+				"mat",
+				"margin-left"
+			],
+			[
+				"flo",
+				"float"
+			],
+			[
 				"ty",
 				"type	Attr"
 			],
 			[
-				"tex",
-				"texto"
-			],
-			[
-				"mouse",
-				"mouseover	.mouseover()"
-			],
-			[
-				"mou",
-				"mouseover	.mouseover()"
-			],
-			[
-				"rep",
-				"replaceAll	.replaceAll()"
+				"margin",
+				"margin-bottom"
 			],
 			[
 				"ab",
 				"absolute"
 			],
 			[
-				"list",
-				"listEntries"
+				"p",
+				"padding"
 			],
 			[
-				"video",
-				"video	Tag"
+				"pla",
+				"plazasArray"
 			],
 			[
-				"div",
-				"div	<div>"
+				"Pla",
+				"PlazaDesc"
 			],
 			[
-				"td",
-				"td	Tag"
+				"on",
+				"onclick	Attr"
+			],
+			[
+				"sli",
+				"slideToggle	.slideToggle()"
+			],
+			[
+				"box",
+				"box-sizing"
+			],
+			[
+				"fa",
+				"fadeto	.fadeTo()"
+			],
+			[
+				"fad",
+				"fadeIn	.fadeIn()"
+			],
+			[
+				"thi",
+				"this	$(this)"
+			],
+			[
+				"fu",
+				"function(){\n	$0\n})();	(function(){\n	$0\n})();"
+			],
+			[
+				"v",
+				"value	Attr"
+			],
+			[
+				"style",
+				"style	Attr"
+			],
+			[
+				"fol",
+				"folioFormat"
+			],
+			[
+				"fi",
+				"fixed"
+			],
+			[
+				"to",
+				"top"
+			],
+			[
+				"i",
+				"if	<?php if (…) ?> … <?php endif ?>"
+			],
+			[
+				"cen",
+				"center"
 			]
 		]
 	},
 	"buffers":
 	[
-		{
-			"file": "/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/app/Http/routes.php",
-			"settings":
-			{
-				"buffer_size": 846,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/app/Http/Controllers/CmsController.php",
-			"settings":
-			{
-				"buffer_size": 3835,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/resources/views/auth/register.blade.php",
-			"settings":
-			{
-				"buffer_size": 1911,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/app/Http/Controllers/RegController.php",
-			"settings":
-			{
-				"buffer_size": 1580,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/resources/views/stats.blade.php",
-			"settings":
-			{
-				"buffer_size": 3492,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/resources/views/users.blade.php",
-			"settings":
-			{
-				"buffer_size": 423,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/resources/views/home.blade.php",
-			"settings":
-			{
-				"buffer_size": 399,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/resources/views/app.blade.php",
-			"settings":
-			{
-				"buffer_size": 2569,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/app/Http/Controllers/WSController.php",
-			"settings":
-			{
-				"buffer_size": 2908,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "www/encuesta.html",
-			"settings":
-			{
-				"buffer_size": 8512,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "www/css/index.scss",
-			"settings":
-			{
-				"buffer_size": 5238,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "www/index.html",
-			"settings":
-			{
-				"buffer_size": 8939,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/config/mail.php",
-			"settings":
-			{
-				"buffer_size": 4112,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/D/Phonegap/surveys.altolago.nimbo.mx/www/css/style.scss",
-			"settings":
-			{
-				"buffer_size": 6365,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -371,20 +487,24 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 196.0,
+		"height": 392.0,
 		"last_filter": "",
 		"selected_items":
 		[
 			[
+				"disa",
+				"Package Control: Disable Package"
+			],
+			[
+				"dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
 				"insta",
-				"Package Control: Install Package"
-			],
-			[
-				"install",
-				"Package Control: Install Package"
-			],
-			[
-				"inst",
 				"Package Control: Install Package"
 			],
 			[
@@ -392,19 +512,91 @@
 				"Package Control: Remove Package"
 			],
 			[
-				"remov",
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"book",
+				"SublimeBookmarks: Goto Bookmark"
+			],
+			[
+				"bokkma",
+				"SublimeBookmarks: Add Bookmark"
+			],
+			[
+				"pack",
 				"Package Control: Remove Package"
 			],
 			[
-				"",
-				"Convert Case: Swap Case"
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"bookma",
+				"SublimeBookmarks: Remove A Bookmark"
+			],
+			[
+				"remove b",
+				"SublimeBookmarks: Remove A Bookmark"
+			],
+			[
+				"goto",
+				"SublimeBookmarks: Goto Bookmark"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"mark",
+				"Bookmarks: Select Next"
+			],
+			[
+				"re",
+				"Package Control: Remove Package"
 			],
 			[
 				"remove",
 				"Package Control: Remove Package"
 			],
 			[
-				"pa",
+				"termin",
+				"Preferences: Terminal Settings – Default"
+			],
+			[
+				"ter",
+				"Preferences: Terminal Key Bindings – Default"
+			],
+			[
+				"term",
+				"Preferences: Terminal Settings – Default"
+			],
+			[
+				"termi",
+				"Preferences: Terminal Settings – Default"
+			],
+			[
+				"comp",
+				"Composer: Dump Autoload"
+			],
+			[
+				"compo",
+				"Composer: Install"
+			],
+			[
+				"com",
+				"Composer: Self Update"
+			],
+			[
+				"Laraver ma",
+				"Laravel Artisan: Migrate: Make"
+			],
+			[
+				"Laravel ",
+				"Laravel Artisan: Migrate"
+			],
+			[
+				"Package Control: in",
 				"Package Control: Install Package"
 			]
 		],
@@ -415,6 +607,7 @@
 		"height": 126.0,
 		"history":
 		[
+			"import urllib.request,os; pr='Preferences.sublime-settings'; ip='ignored_packages'; n='Package Control'; s=sublime.load_settings(pr); ig=s.get(ip); ig.append(n); s.set(ip,ig); sublime.save_settings('Preferences.sublime-settings'); pf=n+'.sublime-package'; urllib.request.install_opener(urllib.request.build_opener(urllib.request.ProxyHandler())); by=urllib.request.urlopen('https://packagecontrol.io/'+pf.replace(' ','%20')).read(); open(os.path.join(sublime.installed_packages_path(),pf),'wb').write(by); ig.remove(n); s.set(ip,ig); sublime.save_settings(pr); print('Package Control: 3.0.0 upgrade successful!')",
 			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
 		]
 	},
@@ -427,133 +620,146 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
-	"expanded_folders":
-	[
-		"/D/Phonegap/Alto Lago - Escuestas",
-		"/D/Phonegap/Alto Lago - Escuestas/www",
-		"/D/Phonegap/Alto Lago - Escuestas/www/css",
-		"/D/localhost/htdocs/nimbo3/altolago.nimbo.pro",
-		"/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/app",
-		"/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/app/Http",
-		"/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/app/Http/Controllers",
-		"/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/app/Http/Controllers/Auth",
-		"/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/app/Http/Middleware",
-		"/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/app/Http/Requests",
-		"/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/config",
-		"/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/resources",
-		"/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/resources/views",
-		"/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/resources/views/auth"
-	],
 	"file_history":
 	[
-		"/C/Users/Ernesto/AppData/Local/Temp/fz3temp-1/index.php",
-		"/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/.env",
-		"/D/Phonegap/Alto Lago - Escuestas/www/index.html",
-		"/D/Phonegap/Alto Lago - Escuestas/www/encuesta.html",
-		"/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/resources/views/stats.blade.php",
-		"/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/app/Http/Controllers/CmsController.php",
-		"/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/resources/views/surveys.blade.php",
-		"/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/resources/views/surveysEdit.blade.php",
-		"/D/Phonegap/Alto Lago - Escuestas/www/css/index.scss",
-		"/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/config/app.php",
-		"/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/composer.json",
-		"/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/artisan",
-		"/C/Users/Ernesto/AppData/Local/Temp/fz3temp-1/welcome.blade.php",
-		"/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/app/Http/routes.php",
-		"/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/app/Http/Controllers/WSController.php",
-		"/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/app/Results.php",
-		"/C/Users/Ernesto/AppData/Local/Temp/fz3temp-1/home.blade.php",
-		"/D/Phonegap/surveys.altolago.nimbo.mx/www/encuesta.html",
-		"/D/Phonegap/surveys.altolago.nimbo.mx/www/js/setup.js",
-		"/D/Phonegap/surveys.altolago.nimbo.mx/www/css/style.css",
-		"/D/Phonegap/surveys.altolago.nimbo.mx/www/css/style.scss",
-		"/D/Phonegap/surveys.altolago.nimbo.mx/www/index.html",
-		"/D/Phonegap/surveys.altolago.nimbo.mx/www/css/index.css",
-		"/D/Phonegap/Alto Lago - Escuestas/www/css/index.css",
-		"/D/Phonegap/surveys.altolago.nimbo.mx/www/js/slidetounlock.js",
-		"/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/database/seeds/DatabaseSeeder.php",
-		"/D/localhost/htdocs/nimbo/directel/application/controllers/webservices.php",
-		"/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/public_html/css/style.scss",
-		"/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/resources/views/welcome.blade.php",
-		"/C/Users/Ernesto/AppData/Local/Temp/fz3temp-1/routes.php",
-		"/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/config/database.php",
-		"/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/database/migrations/2015_03_28_162931_results.php",
-		"/C/Users/Ernesto/AppData/Local/Temp/fz3temp-1/WSController.php",
-		"/D/Phonegap/AltoLago/altolago/www/js/index.js",
-		"/D/Phonegap/AltoLago/altolago/www/-index.html",
-		"/D/Phonegap/AltoLago/altolago/config.xml",
-		"/D/localhost/htdocs/nimbo3/directel/app/routes.php",
-		"/D/localhost/htdocs/nimbo3/directel/app/controllers/HomeController.php",
-		"/D/localhost/htdocs/nimbo3/directel/app/controllers/BaseController.php",
-		"/D/Phonegap/AltoLago/config.xml",
-		"/D/Phonegap/AltoLago/www/index.html",
-		"/C/Users/Ernesto/AppData/Local/Temp/fz3temp-1/busqueda.blade.php",
-		"/C/Users/Ernesto/AppData/Local/Temp/fz3temp-1/plugins.js",
-		"/D/localhost/htdocs/fusion/entorno.pro/public_html/js/plugins.js",
-		"/D/localhost/htdocs/fusion/entorno.pro/app/views/sec/inmueble.blade.php",
-		"/D/localhost/htdocs/fusion/entorno.pro/app/config/local/database.php",
-		"/C/Users/Ernesto/AppData/Local/Temp/fz3temp-1/inmueble.blade.php",
-		"/D/localhost/htdocs/fusion/entorno.pro/app/database/migrations/2014_09_12_002906_crearTablas.php",
-		"/C/Users/Ernesto/AppData/Local/Temp/fz3temp-1/database.php",
-		"/D/localhost/htdocs/fusion/euromex/app/models/Gal.php",
-		"/D/localhost/htdocs/fusion/euromex/app/controllers/cms/CmsUploadController.php",
-		"/D/localhost/htdocs/fusion/euromex/app/database/seeds/VarioSeeder.php",
-		"/D/localhost/htdocs/fusion/euromex/app/views/sec/main.blade.php",
-		"/D/localhost/htdocs/fusion/euromex/app/controllers/cms/CmsVarioController.php",
-		"/D/localhost/htdocs/fusion/euromex/app/views/cms/sec/contacto.blade.php",
-		"/D/localhost/htdocs/fusion/euromex/app/routes.php",
-		"/D/localhost/htdocs/fusion/euromex/app/controllers/cms/CmsController.php",
-		"/D/localhost/htdocs/fusion/euromex/app/database/migrations/2014_12_07_025356_productos.php",
-		"/D/localhost/htdocs/fusion/euromex/app/views/cms/sec/producto/nuevo.blade.php",
-		"/D/localhost/htdocs/fusion/euromex/app/views/cms/sec/producto/editar.blade.php",
-		"/D/localhost/htdocs/fusion/euromex/app/models/Prod.php",
-		"/D/localhost/htdocs/fusion/euromex/app/models/Principal",
-		"/D/localhost/htdocs/fusion/euromex/app/views/cms/sec/contacto/editar.blade.php",
-		"/D/localhost/htdocs/fusion/euromex/app/views/cms/layout.blade.php",
-		"/D/localhost/htdocs/fusion/euromex/app/database/migrations/2014_12_06_204814_principal.php",
-		"/D/localhost/htdocs/fusion/euromex/app/database/migrations/2014_11_08_014342_cmsUsers.php",
-		"/D/localhost/htdocs/fusion/euromex/app/database/migrations/2014_11_08_154436_productos_sec.php",
-		"/D/localhost/htdocs/fusion/euromex/app/config/local/database.php",
-		"/D/localhost/htdocs/fusion/euromex/app/views/layout.blade.php",
-		"/D/localhost/htdocs/fusion/euromex/app/config/app.php",
-		"/D/localhost/htdocs/fusion/euromex/bootstrap/paths.php",
-		"/D/localhost/htdocs/fusion/euromex/public_html/js/vendor/dropzone.js",
-		"/D/localhost/htdocs/fusion/euromex/app/database/migrations/2014_11_08_160251_varios.php",
+		"/C/phonegap/mx.nimbo.altolago.encuestas/www/js/index.js",
+		"/C/Users/Ernesto/Desktop/XML valoran - nimbo/www/app/Http/Controllers/XmlController.php",
+		"/C/Users/Ernesto/Desktop/XML valoran - nimbo/www/app/Http/routes.php",
+		"/C/Users/Ernesto/Desktop/XML valoran - nimbo/app/config.ini",
+		"/C/server/htdocs/valoran/ws.ranman.mx/public/css/cproy.scss",
+		"/C/server/htdocs/valoran/ws.ranman.mx/resources/views/sTasks/sTasksMain.blade.php",
+		"/C/server/htdocs/valoran/ws.ranman.mx/app/Http/Controllers/CheckController.php",
+		"/C/server/htdocs/valoran/ws.ranman.mx/resources/views/login.blade.php",
+		"/C/server/htdocs/valoran/ws.ranman.mx/resources/views/cproy/proyectosMain.blade.php",
+		"/C/server/htdocs/nimbo/klantenn/.htaccess",
+		"/C/Users/Ernesto/Desktop/Nimbo Manager/settings.json",
+		"/C/server/htdocs/nimbo/epigraphs/.htaccess",
+		"/C/server/htdocs/nimbo/epigraphs/config.inc.php",
+		"/C/server/htdocs/valoran/ws.ranman.mx/public/js/main.min.js",
+		"/C/server/htdocs/valoran/ws.ranman.mx/public/js/cproy-main.js",
+		"/C/server/htdocs/valoran/ws.ranman.mx/resources/views/cproy/mainJS.blade.php",
+		"/C/server/htdocs/valoran/ws.ranman.mx/resources/views/cproy/infraDetail.blade.php",
+		"/C/server/htdocs/valoran/ws.ranman.mx/resources/views/cproy/cotoDetail.blade.php",
+		"/C/server/htdocs/valoran/ws.ranman.mx/app/Http/routes.php",
+		"/C/server/htdocs/valoran/ws.ranman.mx/public/css/main.scss",
+		"/C/Users/Ernesto/Desktop/phpdesktop-chrome-31.8-php-5.6.1/www/config/database.php",
+		"/C/Users/Ernesto/Desktop/phpdesktop-chrome-31.8-php-5.6.1/www/config/app.php",
+		"/C/Users/Ernesto/Desktop/phpdesktop-chrome-31.8-php-5.6.1/php/php.ini",
+		"/C/Users/Ernesto/Desktop/phpdesktop-chrome-31.8-php-5.6.1/settings.json",
+		"/C/Users/Ernesto/Desktop/phpdesktop-chrome-31.8-php-5.6.1/www/app/Http/routes.php",
+		"/C/server/htdocs/valoran/ws.ranman.mx/resources/views/main.blade.php",
+		"/C/Users/Ernesto/Desktop/logo.png",
+		"/C/server/htdocs/nimbo/ostobe.com/resources/views/layout.blade.php",
+		"/C/server/htdocs/valoran/ws.ranman.mx/app/Console/Kernel.php",
+		"/C/server/htdocs/valoran/ws.ranman.mx/app/Console/Commands/ProyTasks.php",
+		"/C/server/htdocs/valoran/ws.ranman.mx/app/Proyectos.php",
+		"/C/server/htdocs/valoran/ws.ranman.mx/config/app.php",
+		"/C/server/htdocs/valoran/ws.ranman.mx/resources/views/emails/emptyForm.blade.php",
+		"/C/server/htdocs/valoran/ws.ranman.mx/app/Console/Commands/cproyTasks.php",
+		"/C/server/htdocs/valoran/ws.ranman.mx/app/Console/Commands/Inspire.php",
+		"/C/server/htdocs/valoran/proyectos.ranman.mx/config/database.php",
+		"/C/server/htdocs/valoran/proyectos.ranman.mx/config/app.php",
+		"/C/server/htdocs/valoran/proyectos.ranman.mx/resources/views/app.blade.php",
+		"/C/server/htdocs/nimbo/ostobe.com/resources/views/contacto.blade.php",
+		"/C/server/htdocs/nimbo/ostobe.com/app/Http/routes.php",
+		"/C/server/htdocs/nimbo/ostobe.com/resources/views/emails/layoutmail.blade.php",
+		"/C/server/htdocs/valoran/proyectos.ranman.mx/server.php",
 		"/C/Users/Ernesto/AppData/Local/Temp/fz3temp-1/layout.blade.php",
-		"/D/localhost/htdocs/fusion/euromex/public_html/js/vendor/filedrop.js",
-		"/D/localhost/htdocs/fusion/euromex/public_html/js/vendor/filedrop.min.js",
-		"/D/localhost/htdocs/fusion/euromex/scss/te",
-		"/D/localhost/htdocs/fusion/euromex/sftp-config.json",
-		"/D/localhost/htdocs/fusion/euromex/scss/jquery-te-1.4.0.scss",
-		"/C/Users/Ernesto/Desktop/jQuery-TE_v.1.4.0/demo/demo.html",
-		"/D/localhost/htdocs/fusion/euromex/public_html/css/jquery-te-1.4.0.css",
-		"/C/Users/Ernesto/AppData/Roaming/Sublime Text 3/Packages/User/Side Bar.sublime-settings",
-		"/C/Users/Ernesto/Desktop/jQuery-TE_v.1.4.0/jquery-te-1.4.0.css",
-		"/D/localhost/htdocs/fusion/euromex/public_html/js/vendor/jquery-te-1.4.0.min.js",
-		"/C/Users/Ernesto/Desktop/jQuery-TE_v.1.4.0/uncompressed/jquery-te-1.4.0.js",
-		"/D/localhost/htdocs/fusion/euromex/public_html/js/vendor/filedrop-min.js",
-		"/D/localhost/htdocs/fusion/euromex/vendor/laravel/framework/src/Illuminate/Redis/Database.php",
-		"/D/localhost/htdocs/fusion/euromex/public_html/favicon.png",
-		"/D/localhost/htdocs/fusion/euromex/app/filters.php",
-		"/C/Users/Ernesto/AppData/Roaming/Sublime Text 3/Packages/User/Side Bar Folders.sublime-settings",
-		"/C/Users/Ernesto/AppData/Roaming/Sublime Text 3/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu",
-		"/C/Users/Ernesto/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
-		"/D/localhost/htdocs/fusion/euromex/fsdf/artisan",
-		"/C/Users/Ernesto/AppData/Roaming/Sublime Text 3/Settings/SideBarEnhancements.json",
-		"/C/Users/Ernesto/AppData/Roaming/Sublime Text 3/Packages/SideBarEnhancements/Side Bar.sublime-settings",
-		"/C/Users/Ernesto/AppData/Roaming/Sublime Text 3/Packages/User/Default.sublime-keymap",
-		"/D/localhost/htdocs/fusion/euromex/euromex.sublime-project"
+		"/C/server/htdocs/nimbo/ostobe.com/resources/views/emails/buycar.blade.php",
+		"/C/server/htdocs/nimbo/ostobe.com/app/Http/Controllers/Actions/RegistroController.php",
+		"/C/server/htdocs/nimbo/ostobe.com/resources/views/pieces/car.blade.php",
+		"/C/server/htdocs/nimbo/ostobe.com/resources/views/personalizar.blade.php",
+		"/C/server/htdocs/nimbo/ostobe.com/config/app.php",
+		"/C/server/htdocs/nimbo/ostobe.com/resources/views/emails/compra.blade.php",
+		"/C/server/htdocs/nimbo/ostobe.com/resources/views/admin/personaliza.blade.php",
+		"/C/server/htdocs/nimbo/ostobe.com/resources/views/admin.blade.php",
+		"/C/server/htdocs/nimbo/ostobe.com/config/mail.php",
+		"/C/server/htdocs/nimbo/ostobe.com/resources/views/playeras.blade.php",
+		"/C/server/htdocs/nimbo/ostobe.com/resources/views/polos.blade.php",
+		"/C/server/htdocs/nimbo/ostobe.com/resources/views/nosotros.blade.php",
+		"/C/server/htdocs/nimbo/ostobe.com/resources/views/pedido.blade.php",
+		"/C/server/htdocs/nimbo/ostobe.com/resources/views/layoutAdmin.blade.php",
+		"/C/server/htdocs/nimbo/ostobe.com/resources/views/emails/welcome.blade.php",
+		"/C/server/htdocs/nimbo/ostobe.com/resources/views/emails/diauno.blade.php",
+		"/C/server/htdocs/nimbo/ostobe.com/resources/views/admin/cuentas.blade.php",
+		"/C/server/htdocs/nimbo/ostobe.com/app/Models/Alertas.php",
+		"/C/server/htdocs/nimbo/ostobe.com/resources/views/admin/franquicias.blade.php",
+		"/C/server/htdocs/nimbo/ostobe.com/app/Models/Miembros.php",
+		"/D/localhost/htdocs/nimbo3/os2b/app/Models/Sizes.php",
+		"/D/localhost/htdocs/nimbo3/os2b/app/Models/Colores.php",
+		"/D/localhost/htdocs/nimbo3/os2b/public_html/scss/main.scss",
+		"/D/localhost/htdocs/nimbo3/os2b/app/Http/routes.php",
+		"/D/localhost/htdocs/nimbo3/os2b/resources/views/admin/estructura.blade.php",
+		"/D/localhost/htdocs/nimbo3/os2b/.env",
+		"/D/localhost/htdocs/nimbo3/os2b/app/Models/Productos.php",
+		"/D/localhost/htdocs/nimbo3/os2b/config/mail.php",
+		"/D/localhost/htdocs/nimbo3/os2b/resources/views/admin/cuentas.blade.php",
+		"/D/localhost/htdocs/nimbo3/os2b/resources/views/admin/productos.blade.php",
+		"/D/localhost/htdocs/nimbo3/os2b/composer.json",
+		"/D/localhost/htdocs/nimbo3/os2b/app/Models/User.php",
+		"/D/localhost/htdocs/nimbo3/os2b/app/Models/Member.php",
+		"/D/localhost/htdocs/nimbo3/os2b/config/database.php",
+		"/D/localhost/htdocs/nimbo3/maratontangamanga/server.php",
+		"/D/localhost/htdocs/nimbo3/maratontangamanga/resources/views/welcome.blade.php",
+		"/D/localhost/htdocs/nimbo3/os2b/database/seeds/DatabaseSeeder.php",
+		"/D/localhost/htdocs/nimbo3/os2b/resources/views/nosotros.blade.php",
+		"/D/localhost/htdocs/nimbo3/os2b/resources/views/welcome.blade.php",
+		"/D/localhost/htdocs/nimbo3/os2b/resources/views/layout.blade.php",
+		"/D/localhost/htdocs/nimbo3/os2b/public_html/js/vendor/jquery.cycle2.min.js",
+		"/D/localhost/htdocs/nimbo3/os2b/public_html/scss/main.css",
+		"/D/localhost/htdocs/nimbo3/os2b/config/app.php",
+		"/D/localhost/htdocs/nimbo3/os2b/database/migrations/2015_03_14_121413_create_users_table.php",
+		"/D/localhost/htdocs/nimbo3/os2b/app/Models/users.php",
+		"/D/localhost/htdocs/nimbo3/os2b/config/session.php",
+		"/D/localhost/htdocs/nimbo3/quintas.comebi.mx/web/views/secciones/contacto.php",
+		"/D/localhost/htdocs/nimbo3/laam.com.mx/database/seeds/DatabaseSeeder.php",
+		"/D/localhost/htdocs/nimbo3/laam.com.mx/app/InmZona.php",
+		"/C/Users/Ernesto/Downloads/config.php",
+		"/D/localhost/htdocs/nimbo3/laam.com.mx/app/Http/Controllers/Crm/ClienteController.php",
+		"/D/localhost/htdocs/nimbo3/laam.com.mx/app/Http/Controllers/Crm/CrmController.php",
+		"/D/localhost/htdocs/nimbo3/laam.com.mx/app/InmEstado.php",
+		"/D/localhost/htdocs/nimbo3/laam.com.mx/app/InmMunicipio.php",
+		"/D/localhost/htdocs/nimbo3/laam.com.mx/database/migrations/2015_02_26_231212_tipoInmueble.php",
+		"/C/Users/Ernesto/Downloads/database.php",
+		"/C/Users/Ernesto/AppData/Local/Temp/Rar$DIa0.529/database.php",
+		"/C/Users/Ernesto/AppData/Local/Temp/Rar$DIa0.057/main.php",
+		"/D/localhost/htdocs/nimbo3/laam.com.mx/app/Http/Controllers/WebController.php",
+		"/D/localhost/htdocs/nimbo3/laam.com.mx/config/database.php",
+		"/D/localhost/htdocs/nimbo3/laam.com.mx/app/Http/Controllers/Auth/AuthController.php",
+		"/D/localhost/htdocs/nimbo3/laam.com.mx/app/Http/Controllers/HomeController.php",
+		"/D/localhost/htdocs/nimbo3/laam.com.mx/.env",
+		"/D/localhost/htdocs/nimbo3/laam.com.mx/database/seeds/UserTableSeeder.php",
+		"/C/server/htdocs/nimbo/laam.com.mx/app/Http/routes.php",
+		"/C/server/htdocs/nimbo/laam.com.mx/app/ClienteAd.php",
+		"/C/server/htdocs/nimbo/laam.com.mx/database/migrations/2015_02_19_162050_ClientesAd.php",
+		"/C/server/htdocs/nimbo/laam.com.mx/database/migrations/2015_02_18_224540_Clientes.php",
+		"/C/server/htdocs/nimbo/laam.com.mx/composer.json",
+		"/C/server/htdocs/nimbo/laam.com.mx/resources/views/auth/login.blade.php",
+		"/C/server/htdocs/nimbo/laam.com.mx/resources/views/app.blade.php",
+		"/C/server/htdocs/nimbo/laam.com.mx/.env",
+		"/C/server/htdocs/nimbo/laam.com.mx/resources/views/auth/register.blade.php",
+		"/C/server/htdocs/nimbo/klantenn/en/application/views/seccion/contacto.php",
+		"/C/server/htdocs/nimbo/laam.com.mx/vendor/phpspec/phpspec/spec/PhpSpec/Listener/MethodReturnedNullListenerSpec.php",
+		"/C/server/htdocs/nimbo/laam.com.mx/resources/views/home.blade.php",
+		"/C/server/htdocs/nimbo/laam.com.mx/resources/views/web/main.blade.php",
+		"/C/server/htdocs/nimbo/laam.com.mx/config/mail.php",
+		"/C/server/htdocs/nimbo/laam.com.mx/config/session.php",
+		"/C/server/htdocs/nimbo/laam.com.mx/.env.example",
+		"/C/Users/Ernesto/Desktop/nimboApp/Zapp/settings.json",
+		"/C/Users/Ernesto/Desktop/nimboApp/Zapp/www/resources/views/welcome.blade.php",
+		"/C/Users/Ernesto/Desktop/nimboApp/Zapp/www/app/Http/routes.php",
+		"/C/Users/Ernesto/Desktop/nightrain_4.0.0_Windows_32-bit/settings.ini",
+		"/C/Users/Ernesto/Desktop/test/index.php"
 	],
 	"find":
 	{
-		"height": 42.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
 		"height": 90.0,
 		"where_history":
 		[
-			""
 		]
 	},
 	"find_state":
@@ -561,18 +767,30 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			");\n",
-			"open",
-			"logoSml",
-			"logoS",
+			"index",
+			"box",
+			" \n",
+			"logMeBtn",
 			">\n",
-			"totaluploadprogress",
-			"previewTemplate",
-			"input",
-			"console.log",
-			"Directory",
-			"(img/jquery-te.png)",
-			"jquery-te.png"
+			";\n",
+			"box",
+			"$m",
+			"$m->",
+			"$m",
+			"vistas",
+			"visitas",
+			"inmTransaccion",
+			"correo",
+			"crede",
+			"--}}    ",
+			"videoCanvas",
+			"PR",
+			"saveReporte",
+			"getReporte",
+			"reporteItem",
+			"reportesList",
+			"indent",
+			"reindent"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -580,7 +798,6 @@
 		"regex": false,
 		"replace_history":
 		[
-			"(../img/jquery-te.png)"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -591,465 +808,14 @@
 	"groups":
 	[
 		{
-			"selected": 7,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/app/Http/routes.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 846,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								636,
-								636
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/app/Http/Controllers/CmsController.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3835,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								175,
-								175
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 888.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/resources/views/auth/register.blade.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1911,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								617,
-								617
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 12,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/app/Http/Controllers/RegController.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1580,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								957,
-								957
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"open_with_edit": true,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 180.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/resources/views/stats.blade.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3492,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								3492
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 585.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/resources/views/users.blade.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 423,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								233,
-								233
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"open_with_edit": true,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/resources/views/home.blade.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 399,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								399,
-								399
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/resources/views/app.blade.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2569,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1847,
-								1847
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 180.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/app/Http/Controllers/WSController.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2908,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2006,
-								2006
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 225.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "www/encuesta.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 8512,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3565,
-								3565
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1234.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "www/css/index.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5238,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								5186,
-								5186
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": -0.0,
-						"translation.y": 3897.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 9,
-					"type": "text"
-				},
-				{
-					"buffer": 11,
-					"file": "www/index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 8939,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								6780,
-								6780
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 2433.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 10,
-					"type": "text"
-				},
-				{
-					"buffer": 12,
-					"file": "/D/localhost/htdocs/nimbo3/altolago.nimbo.pro/config/mail.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4112,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3225,
-								3232
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1170.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 11,
-					"type": "text"
-				},
-				{
-					"buffer": 13,
-					"file": "/D/Phonegap/surveys.altolago.nimbo.mx/www/css/style.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6365,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3870,
-								3737
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1977.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 13,
-					"type": "text"
-				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 22.0
+		"height": 23.0
 	},
 	"input":
 	{
@@ -1078,19 +844,31 @@
 		]
 	},
 	"menu_visible": true,
+	"output.CSS Extended Completions":
+	{
+		"height": 0.0
+	},
+	"output.composer":
+	{
+		"height": 100.0
+	},
+	"output.exec":
+	{
+		"height": 100.0
+	},
 	"output.find_results":
 	{
 		"height": 0.0
 	},
 	"output.sftp":
 	{
-		"height": 227.0
+		"height": 0.0
 	},
 	"pinned_build_system": "",
 	"project": "encuestas.sublime-project",
 	"replace":
 	{
-		"height": 40.0
+		"height": 42.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -1099,6 +877,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"",
+				".gitignore"
+			]
 		],
 		"width": 0.0
 	},
@@ -1110,7 +892,7 @@
 		[
 			[
 				"",
-				"D:\\localhost\\htdocs\\nimbo3\\ficep\\ficep.sublime-project"
+				"D:\\localhost\\htdocs\\fusion\\entorno.pro\\entorno.sublime-project"
 			]
 		],
 		"width": 380.0
@@ -1122,11 +904,47 @@
 		"selected_items":
 		[
 			[
-				"data",
-				"Database"
+				"correo",
+				"it_prompts_when_correct_type_of_exception_is_thrown"
+			],
+			[
+				"showRepDet",
+				"showRepDet"
+			],
+			[
+				"getlistTicketsHoy",
+				"getlistTicketsHoy"
+			],
+			[
+				"getTickets",
+				"getTickets"
+			],
+			[
+				"getClosed",
+				"getClosedTickets"
+			],
+			[
+				"getReporte",
+				"getReporteDiag"
+			],
+			[
+				"show",
+				"showRepDiag"
+			],
+			[
+				"showRep",
+				"showRepDiag"
+			],
+			[
+				"ReportesHelpers",
+				"ReportesHelpers"
+			],
+			[
+				"we",
+				"welcome"
 			]
 		],
-		"width": 717.0
+		"width": 596.0
 	},
 	"selected_group": 0,
 	"settings":
@@ -1136,7 +954,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 340.0,
+	"side_bar_width": 409.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
