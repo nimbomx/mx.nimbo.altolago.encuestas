@@ -130,7 +130,7 @@ function delRes(performed_at){
 
  var db = openDatabase('mydb', '1.0', 'ALTOLAGO DB', 2 * 1024 * 1024);
  db.transaction(function (tx) {
-    
+
     tx.executeSql('DELETE FROM results WHERE performed_at = '+performed_at);
 });
 }
@@ -215,8 +215,9 @@ $(function(){
 status('Dispositivo registrado.');
 consola('Dispositivo registrado como '+localStorage.getItem("deviceName"));
 if(navigator.onLine){
+    writeSurveys();
     syncSurveys();
-    
+
 }else{
     writeSurveys();
 }
