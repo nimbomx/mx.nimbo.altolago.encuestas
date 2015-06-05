@@ -30,7 +30,7 @@
                     </td>
                 </tr>
             </table>
-
+            <button id="syncBtn" style="display:none;">SYNC</button>
         </div>
 
     </div>
@@ -216,7 +216,7 @@ status('Dispositivo registrado.');
 consola('Dispositivo registrado como '+localStorage.getItem("deviceName"));
 if(navigator.onLine){
     writeSurveys();
-    syncSurveys();
+    $('#syncBtn').show();
 
 }else{
     writeSurveys();
@@ -224,7 +224,9 @@ if(navigator.onLine){
 
 }
 });
-
+$('#syncBtn').on('click',function(){
+    syncSurveys();
+})
 </script>
        <!--  <script type="text/javascript" src="js/index.js"></script>
         <script type="text/javascript">
